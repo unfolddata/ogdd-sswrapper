@@ -1,0 +1,14 @@
+{
+    "name": "unfolddata/ogdd-wrapper",
+    "description": "Silverstripe wrapper module for Open Government Data Dashboard application",
+    "type": "silverstripe-vendormodule",
+    "extra": {
+        "expose": [
+            "javascript/ogdd"
+        ]
+    },
+    "require": {
+        "silverstripe/vendor-plugin": "^1.0",
+        "silverstripe/framework": "^4.0"
+    }
+}

@@ -1,0 +1,3 @@
+[submodule "javascript/ogdd"]
+	path = javascript/ogdd
+	url = https://github.com/unfolddata/ogdd

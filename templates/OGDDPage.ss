@@ -25,7 +25,7 @@ ODGG
 <body class="$ClassName.ShortName<% if not $Menu(2) %> no-sidebar<% end_if %>" <% if $i18nScriptDirection %>dir="$i18nScriptDirection"<% end_if %>>
 <noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>, please <strong>enable JS</strong> to make this app work.</noscript>
 <div id="root"></div>
-<% require javascript('resources/vendor/ogdd/ogdd/javascript/ogdd/dist/index.js') %>
+<% require javascript('resources/vendor/unfolddata/ogdd-wrapper/javascript/ogdd/dist/index.js') %>
 <script type="text/javascript">
   OGDD.init({
     pathname: window.location.pathname,

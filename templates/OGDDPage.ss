@@ -26,10 +26,5 @@ ODGG
 <noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>, please <strong>enable JS</strong> to make this app work.</noscript>
 <div id="root"></div>
 <% require javascript('resources/vendor/unfolddata/ogdd-wrapper/javascript/ogdd/dist/index.js') %>
-<script type="text/javascript">
-  OGDD.init({
-    pathname: window.location.pathname,
-  });
-</script>
 </body>
 </html>

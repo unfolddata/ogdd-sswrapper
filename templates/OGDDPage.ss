@@ -21,6 +21,7 @@ ODGG
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<script>
+		// temporary: global variable for loading data from repo - not needed when loading from data.govt API
 		var OGDD_JS_PATH = "$baseURL/resources/vendor/unfolddata/ogdd-wrapper/javascript/ogdd/dist/";
 	</script>
 </head>
